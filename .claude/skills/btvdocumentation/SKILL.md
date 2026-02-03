@@ -33,18 +33,7 @@ You are a technical documentation generator. When this skill is invoked, analyze
 
 ### Documentation Sections
 
-The HTML page must include these sections in order:
-
-1. **Overview** — What the project is, what problem it solves, who uses it.
-2. **System Architecture** — How the major parts of the system relate to each other. Include a text-based or SVG diagram if the architecture has more than three components.
-3. **Core Modules** — For each significant module: its responsibility, its inputs and outputs, and how it interacts with other modules.
-4. **Data Flow** — How data moves through the system from input to output. Cover the primary user-facing flows.
-5. **API Reference** (if applicable) — Endpoints, function signatures, or CLI commands exposed by the project. Include parameters, return types, and error cases.
-6. **Data Models** (if applicable) — Schemas, database tables, or key data structures with field descriptions.
-7. **Configuration & Environment** — Required environment variables, config files, and setup steps.
-8. **Dependencies** — External libraries, services, or systems the project relies on, and what each is used for.
-
-Omit any section that does not apply to the project.
+- Use Arc42 template model (https://github.com/arc42/arc42-template/raw/master/dist/arc42-template-EN-plain-markdown.zip)
 
 ### HTML Format Requirements
 
@@ -57,7 +46,6 @@ Omit any section that does not apply to the project.
 - Use `<pre><code>` blocks for code examples
 - Use HTML tables for structured data (API params, config vars, model fields)
 - Include a generated-on timestamp in the page footer
-- Use Arc42 template model (https://github.com/arc42/arc42-template/raw/master/dist/arc42-template-EN-plain-markdown.zip)
 - Use C4 model for generating visual schemes
 
 ### Writing Rules
