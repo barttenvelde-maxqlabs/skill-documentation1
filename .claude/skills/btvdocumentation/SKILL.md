@@ -48,6 +48,7 @@ Omit any section that does not apply to the project.
 
 ### HTML Format Requirements
 
+- Language = Dutch
 - Single self-contained HTML file (inline CSS, no external assets)
 - Clean, readable layout with a sidebar navigation linking to each section
 - Use a neutral color scheme: white background, dark text, subtle borders
