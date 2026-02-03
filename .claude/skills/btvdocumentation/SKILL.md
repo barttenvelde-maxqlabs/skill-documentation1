@@ -3,7 +3,7 @@ name: btvdocumentation
 description: Create functional documentation based on a given code base
 ---
 
-# BTV Documentation
+# BTV Documentation Skill
 
 ## When to Use
 - Use this skill when asked for creating technical or functional documentation
