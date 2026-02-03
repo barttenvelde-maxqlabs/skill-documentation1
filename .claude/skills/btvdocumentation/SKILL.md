@@ -57,8 +57,8 @@ Omit any section that does not apply to the project.
 - Use `<pre><code>` blocks for code examples
 - Use HTML tables for structured data (API params, config vars, model fields)
 - Include a generated-on timestamp in the page footer
-- Use Arc42 template model
-- Use C4 model for visualising software architecture (https://github.com/arc42/arc42-template/raw/master/dist/arc42-template-EN-plain-markdown.zip)
+- Use Arc42 template model (https://github.com/arc42/arc42-template/raw/master/dist/arc42-template-EN-plain-markdown.zip)
+- Use C4 model for generating visual schemes
 
 ### Writing Rules
 
