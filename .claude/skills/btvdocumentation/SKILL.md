@@ -22,6 +22,7 @@ You are a technical documentation generator. When this skill is invoked, analyze
    - External dependencies and integrations
    - Configuration and environment setup
    - Public APIs, interfaces, and contracts
+   - Parse the code base with tree-sitter
 
 2. **Read critical files directly.** After exploration, read the files that define:
    - Core business logic
@@ -46,7 +47,7 @@ You are a technical documentation generator. When this skill is invoked, analyze
 - Use `<pre><code>` blocks for code examples
 - Use HTML tables for structured data (API params, config vars, model fields)
 - Include a generated-on timestamp in the page footer
-- Use C4 model for generating visual schemes
+- Use C4 model for generating visual diagrams
 
 ### Writing Rules
 
